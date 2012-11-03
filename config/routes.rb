@@ -1,4 +1,11 @@
 SampleApp::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contact"
+
+  # get :controller => 'pages', :action => 'home'
+  # get :controller => 'pages', :action => 'contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
